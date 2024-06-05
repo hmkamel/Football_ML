@@ -22,7 +22,7 @@ Overall, this project investigates the power of machine learning in analyzing so
 
 
 ## Disclaimer
-
+```diff
 This project, "Predicting the Beautiful Game: A Machine Learning Approach to Soccer Match Outcomes," is intended solely for educational and research purposes. It serves as a demonstration of applying machine learning techniques to analyze soccer match data and explore potential betting opportunities.
 
 However, it is crucial to understand that the predictions, strategies, and simulations presented in this project should not be used as a basis for actual betting or gambling activities. The results and findings are purely for illustrative purposes and do not guarantee any real-world outcomes or financial gains.
@@ -32,3 +32,4 @@ The creator of this project will not be held responsible for any losses, damages
 It is strongly advised to exercise caution, conduct thorough research, and consult with professionals before making any real-world betting or gambling decisions. The project's purpose is to explore the potential applications of machine learning in sports analytics and should not be treated as a definitive guide for betting strategies or financial advice.
 
 By using or referencing this project, you acknowledge and agree to the terms of this disclaimer and assume full responsibility for your actions and any resulting consequences.
+```
