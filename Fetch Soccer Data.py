@@ -9,3 +9,4 @@ read_team_stats = fbref.read_team_season_stats(stat_type='shooting')
 
 read_team_leagues.to_csv('stand_data.csv', index=False)
 read_team_stats.to_csv('shooting_data.csv', index=False)
+
