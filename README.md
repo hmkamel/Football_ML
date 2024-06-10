@@ -9,6 +9,11 @@ This project explores the application of machine learning to predict soccer matc
 
 By integrating these features, the model aims to learn the complex relationships between various factors and their influence on match results.
 
+~~~
+There seems to be no Linear relationship with X variables and predicted ŷ match outcome variable. Linear Regression model is not fit for use with this dataset. Moving on to Random Forest Regression testing!
+~~~
+![Linearity Correlation](image.png)
+
 ## Beyond Prediction: Identifying Value Bets
 
 The project leverages the model to uncover potential "value bets." Here, the model's predicted probability of an outcome is compared against the bookmakers' odds. If the model's prediction deviates significantly from the odds, indicating a higher probability than suggested, it might present a valuable betting opportunity.
