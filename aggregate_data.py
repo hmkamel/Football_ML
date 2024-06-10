@@ -1,19 +1,21 @@
 import pandas as pd
 import numpy as np
 
-# data = pd.read_csv('shooting_data.csv')
+# Grouping data by 'Team' and getting mean(average) for all stats in the last 3 seasons.
 
-# other_columns = list(data.columns[2:])
+data = pd.read_csv('shooting_data.csv')
 
-# grouped_data = data.groupby('team')
+other_columns = list(data.columns[2:])
 
-# team_totals = grouped_data[other_columns].mean()
+grouped_data = data.groupby('team')
 
-# team_totals = team_totals.reset_index()
+team_totals = grouped_data[other_columns].mean()
 
-# team_totals.to_csv('shooting_data_groupteam.csv',index=False)
+team_totals = team_totals.reset_index()
 
-# print(team_totals)
+team_totals.to_csv('shooting_data_groupteam.csv',index=False)
+
+print(team_totals)
 
 
 # THIS SECTION COMBINES THE DATA FROM STANADRD & SHOOTING TEAM STATS WITH THE MATCH SCHEUDLE
